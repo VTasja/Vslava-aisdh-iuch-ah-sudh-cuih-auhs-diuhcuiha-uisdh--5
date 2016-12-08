@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+# Bootstrap for Sass
+gem 'bootstrap-sass', '~> 3.3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -31,6 +32,25 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+# Slim is a template language whose goal is reduce the syntax
+# to the essential parts without becoming cryptic
+gem 'slim-rails'
+
+# a multi-threaded high performance webserver written in Ruby
+gem 'puma'
+
+# jQuery UI for the Rails asset pipeline
+gem 'jquery-ui-rails'
+
+# CookiesEu does't support 'simple' turbolinks
+# Read more: https://github.com/infinum/cookies_eu
+gem 'jquery-turbolinks'
+
+gem 'react-rails', '~> 1.0'
+
+gem 'sprockets'
+gem 'sprockets-es6'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
