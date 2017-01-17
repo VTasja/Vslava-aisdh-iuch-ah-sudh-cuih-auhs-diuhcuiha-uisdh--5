@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Provider.create(name: 'First Provider', percent: 1.23)
+Provider.create(name: 'Second Provider', percent: 3.45)

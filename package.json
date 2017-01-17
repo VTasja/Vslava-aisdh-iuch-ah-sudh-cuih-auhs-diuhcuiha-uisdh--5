@@ -1,0 +1,26 @@
+{
+  "name": "autoshop",
+  "version": "0.0.1",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "immutability-helper": "^2.1.1",
+    "pluralize": "^3.1.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "stats-webpack-plugin": "^0.2.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.9.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0"
+  }
+}

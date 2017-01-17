@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: providers
+#
+#  id         :integer          not null, primary key
+#  name       :string
+#  percent    :float
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  percent: 1.5
+
+two:
+  name: MyString
+  percent: 1.5
